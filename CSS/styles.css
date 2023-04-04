@@ -3,11 +3,17 @@ body{
     margin: 0;
 }
 
+.top-container{
+    background-color: beige;
+   
+}
+
 h1{
     margin-top: 0;
 }
-div{
-    background-color: beige;
+
+.sopho{
+    text-decoration: underline;
 }
 
 .middle-container{
