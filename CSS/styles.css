@@ -1,10 +1,13 @@
 body{
     background-color: aqua;
     margin: 0;
+    text-align:center;
 }
 
 .top-container{
     background-color: beige;
+    position: relative;
+    padding-top: 140px;
    
 }
 
@@ -28,3 +31,16 @@ h1{
     height: 200px;
     width: 200px;
 }
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 100px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    bottom: 300px;
+    left: 300px;
+}
+
