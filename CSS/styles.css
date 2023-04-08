@@ -1,61 +1,181 @@
-body{
-    background-color: rgb(226, 249, 249);
+body {
+    color: #40514e;
     margin: 0;
-    text-align:center;
-    
+    text-align: center;
+
 }
 
-h1{
+p {
+    line-height: 2;
+}
+
+h1 {
     color: #66BFBF;
     margin: 50px auto 0 auto;
     font-size: 5.625rem;
-    
+
 }
-h2{
-    color:#66BFBF;
+
+h2 {
+    color: #66BFBF;
     font-size: 2.5rem;
     font-weight: normal;
 
 }
-.top-container{
-    background-color: beige;
-    position: relative;
-    padding-top: 140px;
-   
-}
 
-h3{
+h3 {
     color: #11999E;
 }
 
-.sopho{
+hr {
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 5%;
+    margin: 50px auto;
+}
+
+
+/*-------------------TOP CONTAINER------------------------*/
+
+.top-container {
+    background-color: beige;
+    position: relative;
+    padding-top: 60px;
+
+}
+
+.sopho {
     text-decoration: underline;
 }
 
-.img{
-    width: 300px;
-    height: auto;
+/*-------------------TOP CONTAINER END------------------------*/
+
+
+/*-------------------MIDDLE CONTAINER------------------------*/
+
+.middle-container {
+    margin: 100px 0;
 }
 
-a:link{
-    color:#11999E;
+.intro {
+    width: 60%;
+    margin: auto;
 }
-a:visited{
-    color:black;
+
+.skill-row {
+    width: 50%;
+    margin: auto; /*this is done so that the content comes back to center.*/
+    margin: 100px auto;
+    padding: 5px;
 }
-.top-cloud{
+
+
+/*-------------------MIDDLE CONTAINER END------------------------*/
+
+/*-------------------IMAGES------------------------*/
+
+
+.top-cloud {
     position: absolute;
-    right: 300px;
-    top: 100px;
+    right: 210px;
+    top: 70px;
 }
 
-.bottom-cloud{
+.bottom-cloud {
     position: absolute;
     bottom: 300px;
     left: 300px;
 }
 
-.skill-row{
-    width: 50%;
-    margin:auto;  /*this is done so that the content comes back to center.*/
+.profile-img {
+    width: 25%;
+
 }
+
+.code-img {
+    width: 50%;
+    float: left;
+    margin-right: 1px;
+}
+
+.art-img {
+    width: 30%;
+    float: right;
+}
+
+.hello-img{
+    width: 70px;
+    display: inline-block;
+    padding-bottom: 0;
+}
+
+
+
+
+/*--------------------IMAGES END-------------------*/
+
+/*--------------------BUTTON CODE-------------------*/
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+
+/*--------------------BUTTON CODE END-------------------*/
+
+/*-------------------BOTTOM CONTAINER------------------------*/
+
+.contact-msg {
+    width: 30%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.bottom-container {
+    background-color: #66bfbf;
+    padding: 50px 0 10px;
+}
+
+.copyright {
+    color: #eaf6f6;
+    font-size: 0.85rem;
+}
+
+a {
+    margin: 10px 10px;
+    text-decoration: none;
+}
+
+a:link {
+    color: #11999E;
+}
+
+a:hover {
+    color: #eaf6f6;
+}
+
+
+/*-------------------BOTTOM CONTAINER END------------------------*/
+
